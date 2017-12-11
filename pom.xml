@@ -76,5 +76,10 @@
 			<version>1.7.9</version>
 			<type>maven-plugin</type>
 		</dependency>
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>[5.4, 5.4.99]</version>
+		</dependency>
 	</dependencies>
 </project>

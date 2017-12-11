@@ -6,6 +6,7 @@ be\vdab\web\Initializer.class
 be\vdab\web\FiliaalController.class
 be\vdab\web\ControllersConfig.class
 be\vdab\services\FiliaalService.class
+be\vdab\valueobjects\PostcodeReeks.class
 be\vdab\valueobjects\Adres.class
 be\vdab\web\IndexController.class
 be\vdab\repositories\InMemoryFiliaalRepository.class

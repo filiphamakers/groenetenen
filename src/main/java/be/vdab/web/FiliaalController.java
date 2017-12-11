@@ -1,5 +1,6 @@
 package be.vdab.web;
 
+import java.util.List;
 import java.util.Optional;
 import java.util.logging.Logger;
 
@@ -105,7 +106,12 @@ public class FiliaalController {
 	ModelAndView findByPostcodeReeks(PostcodeReeks reeks, BindingResult bindingResult) {
 		ModelAndView modelAndView = new ModelAndView(PER_POSTCODE_VIEW);
 		if (!bindingResult.hasErrors()) {
-			modelAndView.addObject("filialen", filiaalService.findByPostcodeReeks(reeks));
+			List<Filiaal> filialen = filiaalService.findByPostcodeReeks(reeks);
+			if (filialen.isEmpty()) {
+				bindingResult.reject("geenFilialen");
+			} else {
+				modelAndView.addObject("filialen", filialen);
+			}
 		}
 		return modelAndView;
 	}
