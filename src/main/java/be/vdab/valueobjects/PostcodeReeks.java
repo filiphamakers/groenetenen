@@ -2,8 +2,6 @@ package be.vdab.valueobjects;
 
 import javax.validation.constraints.NotNull;
 
-import org.hibernate.validator.constraints.Range;
-
 import be.vdab.constraints.Postcode;
 
 public class PostcodeReeks {
