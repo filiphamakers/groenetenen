@@ -3,7 +3,9 @@ package be.vdab.valueobjects;
 import javax.validation.constraints.NotNull;
 
 import be.vdab.constraints.Postcode;
+import be.vdab.constraints.PostcodeReeksVanKleinerDanOfGelijkAanTot;
 
+@PostcodeReeksVanKleinerDanOfGelijkAanTot
 public class PostcodeReeks {
 	@NotNull
 	@Postcode
@@ -23,14 +25,6 @@ public class PostcodeReeks {
 
 	public Integer getTotpostcode() {
 		return totpostcode;
-	}
-
-	public void setVanpostcode(Integer vanpostcode) {
-		this.vanpostcode = vanpostcode;
-	}
-
-	public void setTotpostcode(Integer totpostcode) {
-		this.totpostcode = totpostcode;
 	}
 
 }
