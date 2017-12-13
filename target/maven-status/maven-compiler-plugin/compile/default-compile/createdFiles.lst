@@ -2,8 +2,11 @@ be\vdab\services\ServicesConfig.class
 be\vdab\repositories\RepositoriesConfig.class
 be\vdab\services\DefaultFiliaalService.class
 be\vdab\web\WerknemerController.class
+be\vdab\constraints\PostcodeReeksVanKleinerDanOfGelijkAanTot.class
 be\vdab\web\Initializer.class
+be\vdab\constraints\Postcode.class
 be\vdab\web\FiliaalController.class
+be\vdab\constraints\PostcodeReeksVanKleinerDanOfGelijkAanTotValidator.class
 be\vdab\web\ControllersConfig.class
 be\vdab\services\FiliaalService.class
 be\vdab\valueobjects\PostcodeReeks.class
