@@ -69,6 +69,11 @@
 			<version>[2.12.0,]</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+			<scope>test</scope>
+		</dependency>
 		<!-- ============================================================= -->
 		<dependency>
 			<groupId>net.bytebuddy</groupId>
@@ -90,6 +95,11 @@
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+			<version>[5.1, 5.99]</version>
 		</dependency>
 	</dependencies>
 </project>
