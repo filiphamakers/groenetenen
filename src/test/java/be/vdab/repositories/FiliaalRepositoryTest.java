@@ -16,9 +16,8 @@ import be.vdab.valueobjects.Adres;
 
 import static org.junit.Assert.assertNotEquals;
 
-
 @RunWith(SpringRunner.class)
-@ContextConfiguration(classes = { TestDataSourceConfig.class, RepositoriesConfig.class, })
+@ContextConfiguration(classes = { TestRepositoriesConfig.class, TestDataSourceConfig.class })
 @Transactional // omringt elke test met een transactie, na de test rollback
 public class FiliaalRepositoryTest {
 	@Autowired

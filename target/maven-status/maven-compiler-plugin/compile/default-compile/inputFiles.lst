@@ -10,8 +10,11 @@ C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\constraints\PostcodeReeksVanKleinerDanOfGelijkAanTot.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\valueobjects\Adres.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\web\DefaultVoorkeur.java
+C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\restservices\LocalDateAdapter.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\repositories\RepositoriesConfig.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\services\WerknemerService.java
+C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\web\AfschrijvenForm.java
+C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\restservices\RestControllersConfig.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\web\OfferteController.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\web\Voorkeur.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\datasource\DataSourceConfig.java
@@ -21,6 +24,7 @@ C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\services\FiliaalService.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\web\Initializer.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\enums\Gazontype.java
+C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\restservices\FiliaalRestController.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\services\DefaultWerknemerService.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\constraints\PostcodeReeksVanKleinerDanOfGelijkAanTotValidator.java
 C:\Users\filip\Desktop\Cursussen\VDAB\JEE Opleiding\Spring\groenetenen\src\main\java\be\vdab\constraints\Postcode.java
