@@ -1,8 +1,7 @@
 package be.vdab.services;
 
-import java.util.List;
-
-import org.springframework.data.domain.Sort;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 
 import be.vdab.entities.Werknemer;
 import be.vdab.repositories.WerknemerRepository;
@@ -16,8 +15,8 @@ public class DefaultWerknemerService implements WerknemerService {
 	}
 
 	@Override
-	public List<Werknemer> findAll() {
-		return werknemerRepository.findAll(new Sort("familienaam", "voornaam"));
+	public Page<Werknemer> findAll(Pageable pageable) {
+		return werknemerRepository.findAll(pageable);
 	}
 
 }
