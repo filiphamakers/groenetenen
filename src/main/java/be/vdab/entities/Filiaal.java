@@ -32,13 +32,13 @@ import be.vdab.valueobjects.Adres;
 @Table(name = "filialen")
 public class Filiaal implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private long id;
-	
-	@Version 
-	private long versie;  
+
+	@Version
+	private long versie;
 
 	@NotBlank
 	@Length(min = 1, max = 50)
@@ -79,6 +79,10 @@ public class Filiaal implements Serializable {
 			Adres adres) {
 		this(naam, hoofdFiliaal, waardeGebouw, inGebruikName, adres);
 		this.id = id;
+	}
+
+	public void afschrijven() {
+		this.waardeGebouw = BigDecimal.ZERO;
 	}
 
 	public long getId() {
@@ -140,7 +144,5 @@ public class Filiaal implements Serializable {
 	public void setVersie(long versie) {
 		this.versie = versie;
 	}
-	
-	
 
 }

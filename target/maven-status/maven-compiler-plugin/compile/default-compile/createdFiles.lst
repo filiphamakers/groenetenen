@@ -5,14 +5,16 @@ be\vdab\web\WerknemerController.class
 be\vdab\constraints\Postcode.class
 be\vdab\web\Voorkeur.class
 be\vdab\services\FiliaalService.class
+be\vdab\entities\Werknemer.class
 be\vdab\entities\Offerte$Stap1.class
 be\vdab\valueobjects\Adres.class
 be\vdab\web\IndexController.class
 be\vdab\web\OfferteController.class
 be\vdab\services\ServicesConfig.class
 be\vdab\repositories\RepositoriesConfig.class
-be\vdab\repositories\JdbcFiliaalRepository.class
+be\vdab\services\DefaultWerknemerService.class
 be\vdab\constraints\PostcodeReeksVanKleinerDanOfGelijkAanTot.class
+be\vdab\services\WerknemerService.class
 be\vdab\web\Initializer.class
 be\vdab\web\FiliaalController.class
 be\vdab\constraints\PostcodeReeksVanKleinerDanOfGelijkAanTotValidator.class
@@ -26,3 +28,4 @@ be\vdab\repositories\FiliaalRepository.class
 be\vdab\web\DefaultVoorkeur.class
 be\vdab\exceptions\FiliaalHeeftNogWerknemersException.class
 be\vdab\entities\Offerte.class
+be\vdab\repositories\WerknemerRepository.class
