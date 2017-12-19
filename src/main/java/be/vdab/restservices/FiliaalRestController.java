@@ -35,6 +35,7 @@ import be.vdab.services.FiliaalService;
 @ExposesResourceFor(Filiaal.class)
 class FiliaalRestController {
 	private final FiliaalService filiaalService;
+	
 	private final EntityLinks entityLinks;
 
 	FiliaalRestController(FiliaalService filiaalService, EntityLinks entityLinks) {
