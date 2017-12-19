@@ -9,6 +9,7 @@ be\vdab\web\Voorkeur.class
 be\vdab\services\FiliaalService.class
 be\vdab\entities\Werknemer.class
 be\vdab\entities\Offerte$Stap1.class
+be\vdab\exceptions\FiliaalNietGevondenException.class
 be\vdab\valueobjects\Adres.class
 be\vdab\web\IndexController.class
 be\vdab\web\OfferteController.class
