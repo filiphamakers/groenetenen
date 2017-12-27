@@ -53,7 +53,7 @@ public class FiliaalRestControllerTest {
 	public void before() {
 		filiaal = new Filiaal("naam", true, BigDecimal.TEN, LocalDate.now(),
 				new Adres("straat", "huisNr", 1000, "gemeente"));
-		filiaalService.create(filiaal);
+		filiaalService.create(filiaal, "");
 		mvc = MockMvcBuilders.webAppContextSetup(context).build();
 	}
 
