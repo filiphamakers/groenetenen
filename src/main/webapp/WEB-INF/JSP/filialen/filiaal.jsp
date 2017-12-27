@@ -30,6 +30,10 @@
 				<dd>
 					&euro;
 					<spring:eval expression='filiaal.waardeGebouw' />
+					<spring:url value='/euro/{euro}/naardollar' var="naarDollarURL">
+						<spring:param name='euro' value='${filiaal.waardeGebouw}' />
+					</spring:url>
+					<a href='${naarDollarURL}'>in &#36;</a>
 				</dd>
 				<dt>Ingebruikname</dt>
 				<dd>
