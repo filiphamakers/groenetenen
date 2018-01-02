@@ -31,7 +31,7 @@ public class DefaultFiliaalService implements FiliaalService {
 	@ModifyingTransactionalServiceMethod
 	public void create(Filiaal filiaal, String urlAlleFilialen) {
 		filiaalRepository.save(filiaal);
-		mailSender.nieuwFiliaalMail(filiaal, urlAlleFilialen + '/' + filiaal.getId());
+//		mailSender.nieuwFiliaalMail(filiaal, urlAlleFilialen + '/' + filiaal.getId());
 		MessageBuilder<String> builder = MessageBuilder.withPayload(urlAlleFilialen + '/' + filiaal.getId());
 		jmsMessagingTemplate.send(builder.build());
 	}
