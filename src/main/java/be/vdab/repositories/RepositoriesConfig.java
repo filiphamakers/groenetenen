@@ -15,6 +15,7 @@ import be.vdab.entities.Filiaal;
 import be.vdab.valueobjects.Adres;
 
 @Configuration
+@ComponentScan 
 @EnableJpaRepositories 
 public class RepositoriesConfig {
 	@Bean
